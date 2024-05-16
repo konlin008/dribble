@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #f8f7f4;
+}
+#page-1 {
+  height: 100%;
+  width: 100%;
+}
+.nav {
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+.nav-p1 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav-p1 h4 {
+  font-size: 12px;
+  cursor: pointer;
+}
+.nav-p2 {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-p2 img {
+  width: 80px;
+  object-fit: cover;
+}
+.nav-p3 {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 20px;
+}
+#search {
+  background-color: #ffffff;
+  border: none;
+  width: 17.5vw;
+  height: 30px;
+  border-radius: 50px;
+}
+.button button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#button2 {
+  background-color: black;
+  color: white;
+}
+#button2:hover {
+  background-color: rgb(49, 49, 49);
+}
+#hero {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3%;
+  background-color: aquamarine;
+}
+#hero h3 {
+  font-size: 13px;
+  background-color: #ffb0dc;
+  width: fit-content;
+  padding: 7px 6px;
+  border-radius: 50px;
+  font-family: serif;
+}
+#hero h2 {
+  font-family: serif;
+  font-size: 4vw;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2%;
+}
+#hero h4 {
+  font-weight: 500;
+  margin-top: 1.5%;
+  color: #0d0c22;
+}
+#hero button{
+  margin-top: 2%;
+  padding: 10px 15px;
+  background-color: black;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 10px;
+}
+#hero button:hover{
+  background-color: rgb(49, 49, 49);
+}
+#bottom{
+  width: 100%;
+  height: 40%;
+  background-color: crimson;
+  display: flex;
+  gap: 2px;
+  padding: 10px;
+  
+}
+.elm{
+  
+  height: 100%;
+  width: 20%;
+  background-color: royalblue;
+}
