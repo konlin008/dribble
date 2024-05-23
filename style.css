@@ -160,6 +160,7 @@ body {
   font-family: sans-serif;
   color: #fff;
   margin-bottom: 17px;
+  text-transform: capitalize;
 }
 .img_info span{
   color: #fff;
