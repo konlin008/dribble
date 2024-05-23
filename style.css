@@ -4,23 +4,28 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 html,
 body {
   height: 100%;
   width: 100%;
 }
+
 body {
   background-color: #f8f7f4;
 }
+
 #page-1 {
   height: 100%;
   width: 100%;
 }
+
 .nav {
   width: 100%;
   height: 10%;
   display: flex;
 }
+
 .nav-p1 {
   height: 100%;
   width: 30%;
@@ -29,10 +34,12 @@ body {
   justify-content: space-between;
   padding: 20px;
 }
+
 .nav-p1 h4 {
   font-size: 12px;
   cursor: pointer;
 }
+
 .nav-p2 {
   height: 100%;
   width: 35%;
@@ -40,10 +47,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .nav-p2 img {
   width: 80px;
   object-fit: cover;
 }
+
 .nav-p3 {
   height: 100%;
   width: 35%;
@@ -52,6 +61,7 @@ body {
   justify-content: space-around;
   padding: 0px 20px;
 }
+
 #search {
   background-color: #ffffff;
   border: none;
@@ -59,6 +69,7 @@ body {
   height: 30px;
   border-radius: 50px;
 }
+
 .button button {
   background-color: transparent;
   border: none;
@@ -66,13 +77,16 @@ body {
   border-radius: 50px;
   cursor: pointer;
 }
+
 #button2 {
   background-color: black;
   color: white;
 }
+
 #button2:hover {
   background-color: rgb(49, 49, 49);
 }
+
 #hero {
   width: 100%;
   height: 50%;
@@ -81,6 +95,7 @@ body {
   align-items: center;
   padding-top: 3%;
 }
+
 #hero h3 {
   font-size: 13px;
   background-color: #ffb0dc;
@@ -89,6 +104,7 @@ body {
   border-radius: 50px;
   font-family: serif;
 }
+
 #hero h2 {
   font-family: serif;
   font-size: 4vw;
@@ -96,12 +112,14 @@ body {
   text-align: center;
   margin-top: 2%;
 }
+
 #hero h4 {
   font-weight: 500;
   margin-top: 1.5%;
   color: #0d0c22;
 }
-#hero button{
+
+#hero button {
   margin-top: 2%;
   padding: 10px 15px;
   background-color: black;
@@ -109,10 +127,12 @@ body {
   color: #fff;
   font-size: 10px;
 }
-#hero button:hover{
+
+#hero button:hover {
   background-color: rgb(49, 49, 49);
 }
-#bottom{
+
+#bottom {
   height: 40%;
   width: 100%;
   white-space: nowrap;
@@ -120,10 +140,12 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
 }
-#bottom::-webkit-scrollbar{
+
+#bottom::-webkit-scrollbar {
   display: none;
 }
-.elm{
+
+.elm {
   position: relative;
   display: inline-block;
   height: 100%;
@@ -133,20 +155,22 @@ body {
   border-radius: 30px;
   overflow: hidden;
 }
-.elm img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  
-}
-.elm video{
+
+.elm img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
-.elm .img_info{
+
+.elm video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.elm .img_info {
   position: absolute;
   width: 100%;
   height: 30%;
@@ -154,7 +178,8 @@ body {
   /* background-color: red; */
   padding: 0px 10px;
 }
-.elm .img_info h4{
+
+.elm .img_info h4 {
   font-size: 10px;
   font-weight: 550;
   font-family: sans-serif;
@@ -162,10 +187,74 @@ body {
   margin-bottom: 17px;
   text-transform: capitalize;
 }
-.img_info span{
+
+.img_info span {
   color: #fff;
   font-size: 11px;
   border: 1px solid rgba(255, 255, 255, 0.349);
   padding: 3px 7px;
   border-radius: 50px;
+}
+
+#page_2 {
+  height: 100%;
+  width: 100%;
+  padding: 4vw 4.8vw;
+}
+#page_2 h2{
+  text-align: center;
+  margin: 3vw;
+  font-family: Mona Sans;
+  font-size: 3vw;
+}
+
+
+#page_2 .box {
+  position: relative;
+  height: 32.5vh;
+  width: 21vw;
+  background-color: red;
+  border-radius: 7px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.box img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.box video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.box_bottom{
+  width: 100%;
+  height: 40%;
+  background:linear-gradient(transparent,rgba(0, 0, 0, 0.644)) ;
+  position: absolute;
+  bottom: -40%;
+  transition: all ease-in 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.box_bottom h5{
+  color: white;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+.box:hover .box_bottom{
+  bottom: 0;
+}
+.box_bottom_icon i{
+background-color: white;
+padding: 7px;
+border-radius: 50%;
+font-size: 13px;
 }
