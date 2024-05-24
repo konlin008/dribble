@@ -197,7 +197,7 @@ body {
 }
 
 #page_2 {
-  height: 100%;
+  height: fit-content;
   width: 100%;
   padding: 4vw 4.8vw;
 }
@@ -257,4 +257,75 @@ background-color: white;
 padding: 7px;
 border-radius: 50%;
 font-size: 13px;
+}
+.page_bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vw;  
+  margin-bottom: 2vw;
+}
+.page_bottom button{
+  padding: 10px 20px;
+  background-color: transparent;
+  
+  border: 1px solid rgba(0, 0, 0, 0.288);
+  border-radius: 50px;
+  transition: all ease-in 0.1s;
+}
+.page_bottom button:hover{
+  border: 1.3px solid black;
+}
+.page_3{
+  height: 100%;
+  width: 100%;
+  background-color: #ffb0dc;
+}
+.footer-p1{
+  width: 100%;
+  height: 70%;
+  background-color: #FFDA79;
+  padding-top: 7vW;
+}
+.footer-p1 h2{
+  font-size: 3.5vw;
+  font-weight: 500; 
+  text-align: center;
+  font-family: Georgia;
+  letter-spacing: 1.5px;
+}
+.footer-p1 p{
+  margin-top: 1vw;
+  font-family: Georgia;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+ color: rgba(0, 0, 0, 0.575);
+  font-size: 15px;
+  line-height: 23px;
+}
+.footer-p1 h4{
+  margin-top: 2vw;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.575);
+}
+.footer-p1 h4 a{
+  color: rgba(0, 0, 0, 0.575);
+}
+.action{
+  display: flex;
+  justify-content: center;
+}
+.action button{
+  margin-top: 2vw;
+  font-size: 11px;
+background-color: white;
+padding: 13px 15px;
+border: none;
+border-radius: 50px;
+}
+.action .button1{
+  background-color: black;
+  color: #fff;
+  margin-right: 10px;
 }
