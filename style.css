@@ -132,12 +132,12 @@ body {
   background-color: rgb(49, 49, 49);
 }
 
-#bottom {
+#bottom_page2 {
   height: 40%;
   width: 100%;
   white-space: nowrap;
   padding: 5px 0px;
-  overflow-x: auto;
+  overflow-x: hidden;
   overflow-y: hidden;
 }
 
@@ -154,8 +154,21 @@ body {
   margin-right: 15px;
   border-radius: 30px;
   overflow: hidden;
-}
+  /* animation-name:scroll ;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; */
 
+}
+/* @keyframes scroll {
+  from{
+    transform:translateX(0) ;
+  }
+  to{
+    transform:translateX(calc(-100% - 19px)) ;
+  }
+  
+} */
 .elm img {
   height: 100%;
   width: 100%;
@@ -219,6 +232,7 @@ body {
   margin-right: 15px;
   margin-bottom: 15px;
   overflow: hidden;
+  transition: all ease-in 0.5s;
 }
 .box img{
   height: 100%;
@@ -237,7 +251,7 @@ body {
   background:linear-gradient(transparent,rgba(0, 0, 0, 0.644)) ;
   position: absolute;
   bottom: -40%;
-  transition: all ease-in 0.4s;
+  transition: all ease-in 0.5s;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -275,6 +289,9 @@ font-size: 13px;
 }
 .page_bottom button:hover{
   border: 1.3px solid black;
+}
+.box:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
 }
 .page_3{
   height: 100%;
